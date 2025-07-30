@@ -14,7 +14,7 @@ public class GuiModListContent extends GuiSlot {
     public int currentIndex;
 
     public GuiModListContent(GuiModList parent) {
-        super(parent.mc, (parent.width * 2 / 3) - 2, parent.height - 60, 18, parent.height - 42, 18);
+        super(parent.mc, (parent.width * 2 / 3) - 2, parent.height - 60, 36, parent.height - 42, 18);
         this.parent = parent;
         this.modList = NilModList.getAll();
         this.currentIndex = 0;
